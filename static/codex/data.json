@@ -1,0 +1,210 @@
+{
+    "project": {
+        "name": "varnish-client",
+        "description": "Varnish Client",
+        "version": "0.1.0",
+        "url": "http://github.com/UsabilityDynamics/node-varnish-client",
+        "logo": "http://media.usabilitydynamics.com/logo.png"
+    },
+    "files": {
+        "lib/common/utility.js": {
+            "name": "lib/common/utility.js",
+            "modules": {},
+            "classes": {
+                "Utility": 1
+            },
+            "fors": {
+                "Utility": 1
+            },
+            "namespaces": {}
+        },
+        "lib/varnish-client.js": {
+            "name": "lib/varnish-client.js",
+            "modules": {},
+            "classes": {},
+            "fors": {
+                "varnishClient": 1
+            },
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Utility": {
+            "name": "Utility",
+            "shortname": "Utility",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/common/utility.js",
+            "line": 1,
+            "description": "Utility Methods",
+            "is_constructor": 1
+        },
+        "varnishClient": {
+            "name": "varnishClient",
+            "shortname": "varnishClient",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": []
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/common/utility.js",
+            "line": 19,
+            "description": "Placeholder Method",
+            "itemtype": "method",
+            "name": "noop",
+            "class": "Utility"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 1,
+            "description": "Varnish Client.",
+            "params": [
+                {
+                    "name": "host",
+                    "description": ""
+                },
+                {
+                    "name": "port",
+                    "description": ""
+                },
+                {
+                    "name": "ready_callback",
+                    "description": ""
+                }
+            ],
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 27,
+            "description": "Options Handling.\n\nAdds object-settings functionality to this.options and this, for convinience.",
+            "itemtype": "property",
+            "name": "options",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 40,
+            "description": "Event Handling.\n\nAdds object-emitter functionality to this.options and this, for convinience.",
+            "itemtype": "property",
+            "name": "emitter",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 53,
+            "description": "Command Queue",
+            "itemtype": "property",
+            "name": "queue",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 161,
+            "description": "Instance Properties",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 167,
+            "description": "Send Command",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 179,
+            "description": "Send Command",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 191,
+            "description": "Send Command",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 203,
+            "description": "Send Command",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 215,
+            "description": "Middleware Application Instance.",
+            "itemtype": "property",
+            "name": "utility",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 226,
+            "description": "Constructor Properties",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 232,
+            "description": "Debug Method.",
+            "itemtype": "method",
+            "name": "debug",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 242,
+            "description": "Module Version.",
+            "itemtype": "method",
+            "name": "version",
+            "class": "varnishClient"
+        },
+        {
+            "file": "lib/varnish-client.js",
+            "line": 260,
+            "description": "Default Options.",
+            "class": "varnishClient"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nVarnish Client.",
+            "line": " lib/varnish-client.js:1"
+        },
+        {
+            "message": "Missing item type\nInstance Properties",
+            "line": " lib/varnish-client.js:161"
+        },
+        {
+            "message": "Missing item type\nSend Command",
+            "line": " lib/varnish-client.js:167"
+        },
+        {
+            "message": "Missing item type\nSend Command",
+            "line": " lib/varnish-client.js:179"
+        },
+        {
+            "message": "Missing item type\nSend Command",
+            "line": " lib/varnish-client.js:191"
+        },
+        {
+            "message": "Missing item type\nSend Command",
+            "line": " lib/varnish-client.js:203"
+        },
+        {
+            "message": "Missing item type\nConstructor Properties",
+            "line": " lib/varnish-client.js:226"
+        },
+        {
+            "message": "Missing item type\nDefault Options.",
+            "line": " lib/varnish-client.js:260"
+        }
+    ]
+}
